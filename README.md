@@ -22,3 +22,12 @@ The lab environment consists of multiple isolated networks:
 - **Security Onion sensor** monitoring mirrored traffic
 
 ![Enterprise SOC Architecture](architecture/enterprise-soc-network-v1.png)
+
+## Deployment Progress
+
+The following infrastructure components have been deployed:
+
+- pfSense firewall for network segmentation and routing
+- Windows 11 endpoint to simulate enterprise user activity
+
+Further components such as Security Onion and domain services will be added in subsequent phases.
