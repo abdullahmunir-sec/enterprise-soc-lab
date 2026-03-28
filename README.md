@@ -34,3 +34,7 @@ The following infrastructure components have been deployed:
 - Kali Linux attacker workstation
 - Metasploitable 2 vulnerable server
 - Ubuntu Server prepared for Splunk SIEM deployment
+
+## Monitoring Platform
+
+Security Onion has been deployed to provide network intrusion detection and security event monitoring across the lab environment. The platform collects mirrored traffic and generates alerts based on detected threats and anomalies.
