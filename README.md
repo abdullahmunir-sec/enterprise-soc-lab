@@ -37,3 +37,17 @@ The following infrastructure components have been deployed:
 ## Monitoring Platform
 
 Security Onion has been deployed to provide network intrusion detection and security event monitoring across the lab environment. The platform collects mirrored traffic and generates alerts based on detected threats and anomalies.
+
+## Infrastructure Configuration
+
+Additional configurations have been completed to support a functional and realistic SOC environment:
+
+- Configured Active Directory with domain users and security groups
+- Implemented group-based access control for simulation
+- Enabled DNS reverse lookup zone for internal host resolution
+- Joined Windows 11 endpoint to Active Directory domain (test.local)
+- Installed Splunk SIEM on Ubuntu Server
+- Assigned static IP to Splunk server for consistent communication
+- Introduced intentional Active Directory misconfigurations for security testing
+
+These configurations enable realistic enterprise scenarios involving authentication, logging, and attack simulation.
