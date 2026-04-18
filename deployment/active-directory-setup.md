@@ -78,3 +78,28 @@ Active Directory is a primary target in enterprise environments. This setup enab
 * Lateral movement
 * Privilege escalation
 * Account enumeration
+
+## Domain Join – Windows 11 Endpoint
+
+A Windows 11 endpoint was successfully joined to the `test.local` domain.
+
+### Steps Performed
+
+* Configured DNS on the Windows 11 machine to point to the domain controller
+* Accessed system settings and initiated domain join
+* Authenticated using domain administrator credentials
+* Restarted the system to apply changes
+
+### Validation
+
+* Logged into the system using a domain user account
+* Verified domain membership via system properties
+* Confirmed domain connectivity and authentication
+
+### Purpose
+
+Joining the endpoint to the domain enables:
+
+* Centralized authentication via Active Directory
+* Generation of user login and authentication logs
+* Simulation of real-world enterprise user activity
