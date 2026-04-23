@@ -49,5 +49,7 @@ Additional configurations have been completed to support a functional and realis
 - Installed Splunk SIEM on Ubuntu Server
 - Assigned static IP to Splunk server for consistent communication
 - Introduced intentional Active Directory misconfigurations for security testing
+- Configured Splunk to ingest logs from Windows Server (Domain Controller)
+- Enabled centralized collection of Windows Event Logs
 
 These configurations enable realistic enterprise scenarios involving authentication, logging, and attack simulation.
