@@ -53,3 +53,14 @@ Additional configurations have been completed to support a functional and realis
 - Enabled centralized collection of Windows Event Logs
 
 These configurations enable realistic enterprise scenarios involving authentication, logging, and attack simulation.
+
+## Attack Simulation & Detection
+
+Initial attack simulations have been performed to validate monitoring and detection capabilities:
+
+- Conducted network scanning using Kali Linux against Metasploitable
+- Generated ICMP traffic to simulate basic communication
+- Monitored and analyzed activity using Security Onion
+- Verified detection of scanning behavior and network traffic visibility
+
+This marks the transition from lab setup to active SOC monitoring and detection.
