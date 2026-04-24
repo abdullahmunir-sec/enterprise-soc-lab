@@ -26,7 +26,7 @@ A network scan was performed to identify open ports and services on the target s
 nmap 192.168.1.10
 ```
 
-![Enterprise SOC Architecture](docs/screenshots/nmap.png)
+![Screenshot](../docs/screenshots/nmap.png)
 
 This generates detectable scanning activity across multiple ports.
 
@@ -39,14 +39,14 @@ Basic ICMP requests were sent to the target system to generate network traffic.
 ```id="6xt9rj"
 ping 192.168.1.10
 ```
-![Enterprise SOC Architecture](docs/screenshots/ping-ip.png)
+![Screenshot](../docs/screenshots/ping-ip.png)
 ---
 
 ## Detection & Monitoring
 
 The generated traffic was captured and analyzed using Security Onion.
 
-![Enterprise SOC Architecture](docs/screenshots/SecOnion-detection.png)
+![Screenshot](../docs/screenshots/SecOnion-detection.png)
 
 ### Observations
 
